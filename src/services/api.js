@@ -1,7 +1,7 @@
 import axios from 'axios';
 import toast from 'react-hot-toast';
 
-const API_BASE_URL = 'http://localhost:5000/api';
+const API_BASE_URL = 'https://todo-task-smart-backend-1.onrender.com';
 
 const api = axios.create({
   baseURL: API_BASE_URL,
